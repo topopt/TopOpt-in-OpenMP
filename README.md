@@ -16,7 +16,7 @@ This is done by setting
 ```c
 #define STENCIL_SIZE_Y 4 // set to 4 for AVX2, or 8 for AVX512
 ```
-to either 4 or 8, depending on whether AVX2 or AVX512 is available on the target platform.
+to either 4 or 8, depending on whether AVX2 or AVX512 is available on the target platform. If in doubt, the default setting should work sufficiently well everywhere.
 
 ## Running the Code
 To run 20 iterations of the code on a grid of 128 times 64 times 64 voxels using 12 cores the following commands are used:

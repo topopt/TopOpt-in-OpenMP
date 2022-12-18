@@ -15,7 +15,7 @@
 
 // define stencil sizes at compile time
 #define STENCIL_SIZE_X 1 // must be 1
-#define STENCIL_SIZE_Y 4 // set to 4 for AVX2, or 8 for AVX512
+#define STENCIL_SIZE_Y 8 // set to 4 for AVX2, or 8 for AVX512
 #define STENCIL_SIZE_Z 1 // must be 1
 
 #define number_of_matrix_free_levels 2
