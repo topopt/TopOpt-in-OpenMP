@@ -19,7 +19,7 @@ This is done by setting
 to either 4 or 8, depending on whether AVX2 or AVX512 is available on the target platform. If in doubt, the default setting should work sufficiently well everywhere.
 
 ## Running the Code
-To run 20 iterations of the code on a grid of 128 times 64 times 64 voxels using 12 cores the following commands are used:
+The default design problem is a 2x1x1 cantilever problem. To run 20 iterations of the code on a grid of 128 times 64 times 64 voxels using 12 cores the following commands are used:
 ```bash
 $ export OMP_NUM_THREADS=12
 $ export GOMP_CPU_AFFINITY=0-11
