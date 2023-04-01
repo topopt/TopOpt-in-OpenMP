@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5083222.svg)](https://zenodo.org/badge/DOI/10.5281/zenodo.5083222.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7791823.svg)](https://zenodo.org/badge/DOI/10.5281/zenodo.7791823.svg)
 # Topology Optimisation Based on OpenMP
 This repository contains an implementation of a topology optimisation solver for linear elastic compliance minimisation in three dimensions. The implementation is matrix-free and based on OpenMP for multithreading and SIMD support.
 
